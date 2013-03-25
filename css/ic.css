@@ -1,0 +1,11 @@
+.infiniteCarousel{
+
+}
+	.wrapper{
+		width: 800px; /*Needs to have a fixed width*/
+		position: relative;
+	}
+		.slider{
+			width: 9999px; /* Bigger than $items.widthx$items.length*/
+		}
+			.item{  }
