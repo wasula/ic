@@ -7,4 +7,4 @@ Free to use/modify at your own risk.
 
 Example Usage:
 ==
-$('.infiniteCarousal').ic({vertical:true, curPage:0}, function(){});
+$('.infiniteCarousal').ic({vertical:true, curPage:1}, function(){});

@@ -78,7 +78,7 @@
 				$(this).bind('goto', function( event, page ){
 					gotoPage( page );
 				});
-				callback( true );
+				return callback ? callback( true ) : false;
 			});
 		}
 	})(jQuery);
